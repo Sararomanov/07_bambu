@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@font-face{
+    font-family: "Bubbler";
+    src: url(../font/BubblerOne-Regular.ttf);
+}
+
+@font-face{
+    font-family: "Chilanka";
+    src: url(../font/Chilanka-Regular.ttf);
+}
+
+@font-face{
+    font-family: "Redes";
+    src: url(../font/Grunge-Social-Media.ttf);
+}
+
+@font-face{
+    font-family: "Playfair";
+    src: url(../font/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px; 
+}
+
+body{
+    font-size: 0px;
+}
+
+/* HEADER */
+
+#inicio{
+    background-color: #fff;
+    height: 100vh;
+}
+
+#titulos{
+    width: 100%;
+    height: 93vh;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+#titulos{
+    background: url(../image/pexels-10-star-321296-914682.jpg) no-repeat 30% 30%;
+    background-size: cover;
+    text-align: center;
+    padding: 25vh 100px;
+    color: #fff;
+}
+
+    h4{
+        font-family: 'Oswald', cursive;
+        font-size: 5.5rem; /* rem= vas a tomar lo que tienes de referencia en HTML */
+        letter-spacing: 5px ;
+        margin-bottom: 30px;
+    }
+
+    #tendencia{
+        font-family: Chilanka, cursive;
+        font-size: 4.5rem;
+        margin-bottom: 30px;
+
+    } 
+
+    h3{
+        font-family: Bubbler, cursive;
+        font-size: 1.2rem;
+        letter-spacing: 3px;
+    }
+    
+    #principal{
+        height: cover; /* para que se complete el alto de la página*/
+
+    }
+
+/* NAV */
+
+    nav{
+        position: sticky;
+        top: 0px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.9); 
+        /* es rgb pero lo agregamos la letra a pq le vamos a agregar alfa para aplicar transparencia */
+        text-align: center;
+        
+    }
+
+        a{
+            font-family: 'Zen Loop', cursive;
+            font-size: 1.4rem;
+            color: #fff;
+            display: inline-block;
+            padding: 10px 180px;
+            /* que tenga un margen de 10px hacia arriba y 2 px hacia los lados */
+            margin-right: 25px;
+            letter-spacing: 2px;
+            text-decoration: none;
+           
+        }
+        
+        a:hover{
+            font-weight: bolder;
+            
+        }
+
+        .contenedor{
+            text-align: center;
+            padding: 70px;
+        
+        }
+
+        
+    #viaja{
+        background-color: #fff;
+    }
+
+    .titulo{
+        font-family: Playfair Display, cursive;
+        color: #000000;
+        font-size: 4rem;
+        margin-bottom: 40px;
+    }
+
+/* ------------------------- */
+    figure, #concepto_play{
+        width: 50%;
+        display: inline-block;
+        vertical-align: middle;
+       
+    } 
+
+    #img_play{
+        width: 85%;
+        margin: 5px;
+        float: left;
+    }
+
+
+    fieldset{
+        width: 100%;
+        text-align: justify;
+        font-size: 1rem;
+        font-family: 'Permanent Marker', cursive;
+        padding: 30px;
+        margin: 0 auto;
+        
+    }
+
+    .iconos article, span{
+        width: 33%;
+        display: inline-block;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        vertical-align: middle;
+        font-size: 1.1rem;
+    }
+
+    #icono{
+        color: #8de5d5;
+        font-size: 1rem;
+        
+    }
+
+
+    .icono1{
+        color: #ccd78c;
+        font-size: 4rem;
+    }
+
+    .icono2{
+        color: #6b52da;
+        
+        font-size: 4rem;
+    }
+
+    .icono3{
+        color: #4d53af;
+      
+        font-size: 4rem;
+        
+    }
+
+    
+
+    #final{
+        height: 100vh; /* para que se complete el alto de la página*/
+        width: 100%;
+    }
+
+    #titulo2{
+        background: url(../image/arbol.jpg) no-repeat fixed;
+        background-size: cover;
+        text-align: center;
+        padding: 25vh 100px;
+        color: #fff;
+    }
+
+
+        h5{
+            font-family: 'Oswald', cursive;
+            font-size: 5.5rem; /* rem= vas a tomar lo que tienes de referencia en HTML */
+            letter-spacing: 5px ;
+            margin-bottom: 30px;
+        }
+
+
+        h6{
+            font-family: 'Oswald', cursive;
+            text-align: center;
+            font-size: 5.5rem; /* rem= vas a tomar lo que tienes de referencia en HTML */
+            letter-spacing: 5px ;
+            margin-bottom: 30px;
+        }
+
+        h2{
+            font-family: Bubbler, cursive;
+            font-size: 1.2rem;
+            letter-spacing: 3px;
+            text-align: center;
+            width: 96%;
+
+        }
+
+        .iconos article, span{
+            width: 33%;
+            display: inline-block;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            vertical-align: middle;
+            font-size: 1.1rem;
+        }
+
+        #fondo1, #fondo2, #fondo3{
+            width: 33%;
+            height: 380px;
+            margin-top: 20px;
+            padding: 2px 10px;
+        }
+
+        #fondo4, #fondo5, #fondo6{
+            width: 33%;
+            height: 380px;
+            margin-top: 20px;
+            padding: 2px 8px;
+        }
+
+        #mapa{
+            margin-top: 60px;
+            width: 100%;
+            height: 300px;
+        
+        }
+
+/* --------------------- */
+
+#tabla{
+    font-size: 1rem;
+    font-family: Chilanka, cursive;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 25px;
+    border-collapse: collapse;
+    padding: 0px 50px;
+   
+    
+
+}
+    #tabla th, #tabla td, #tabla td{
+        color: #fff;
+        transform: translate(50% );
+        padding: 10px;
+       
+    }
+
+/* --------------------- */
+        
+    footer{
+        background-color: #2b3d48;
+    }
+
+    #rs, #derechos{
+        width: 50%;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 0px 30px;
+    }
+
+    #rs a{
+        font-family: Grunge;
+        
+    }
+
+
+    #derechos{
+        font-size: 1rem;
+        color: #fff;
+        font-family: 'Baloo Bhai', cursive;
+        text-align: right;
+    }
+       
+        
+
+
+
+
+    
+    
+   
+
+
+    
+    
